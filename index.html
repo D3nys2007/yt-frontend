@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube Front End</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Trending</a></li>
+          <li><a href="#">Subscriptions</a></li>
+        </ul>
+      </nav>
+      <div class="search-bar">
+        <input type="text" placeholder="Search">
+        <button>Search</button>
+      </div>
+    </header>
+    <main>
+      <section class="video">
+        <div class="video-player">
+          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="video-info">
+          <h2>Never Gonna Give You Up</h2>
+          <p>Rick Astley - 1987</p>
+        </div>
+      </section>
+      <section class="video-list">
+        <ul>
+          <li>
+            <a href="#">
+              <img src="https://i.ytimg.com/vi/2Vv-BfVoq4g/hqdefault.jpg" alt="Video thumbnail">
+              <h3>Another Brick in the Wall (Part 2)</h3>
+              <p>Pink Floyd - 1979</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="https://i.ytimg.com/vi/kJLrRpLHg-g/hqdefault.jpg" alt="Video thumbnail">
+              <h3>Bohemian Rhapsody</h3>
+              <p>Queen - 1975</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="https://i.ytimg.com/vi/Cy9-yY8Kf6o/hqdefault.jpg" alt="Video thumbnail">
+              <h3>Billie Jean</h3>
+              <p>Michael Jackson - 1983</p>
+            </a>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Terms of Use</a></li>
+      </ul>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
